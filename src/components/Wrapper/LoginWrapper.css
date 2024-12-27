@@ -1,0 +1,53 @@
+.login_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+    height: 100%; 
+    width:60%;
+    background-color: #2B2738;
+    border-radius: 15px;
+    margin-top: 50px;
+    overflow: auto;
+   
+}
+
+.login_wrapper .left{
+    
+    height: 100%;
+    width:50%;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.login_wrapper .left img{
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+}
+.login_wrapper .right{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+
+.heading{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.subHeading{
+    color: #AAA9B0;
+}
+
+.register{
+    color: #BBA6F4;
+}
+.register:hover{
+    text-decoration: underline;
+}

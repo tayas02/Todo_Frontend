@@ -1,0 +1,11 @@
+
+.mainapp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  padding: 0;
+ 
+  
+
+}

@@ -1,0 +1,37 @@
+.formDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.formDesign input {
+  outline: none;
+  border: 0ch;
+  border-radius: 8px;
+  width: 95%;
+  background-color: #3b364c;
+  padding: 10px;
+  color: white;
+}
+
+.formDesign input:focus {
+  border: solid 1px #c1adf8;
+}
+
+.fandlname {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+}
+
+.formDesign button {
+    background-color: #6E54B5;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    border: 0ch;
+    border-radius: 8px;
+}

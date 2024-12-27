@@ -1,0 +1,14 @@
+body{
+  background-color: #676179;
+  height: 100%;
+  padding: 0;
+}
+
+.wrapper_global{
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
