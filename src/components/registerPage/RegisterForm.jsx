@@ -43,7 +43,7 @@ const RegisterForm = () => {
         </div>
         <input onChange={(e)=>handleChange(e)} type="email" id="email" placeholder='Email' value={data.email} />
         <input onChange={(e)=>handleChange(e)} type="password" id="password" placeholder='Enter your password' value={data.password} />
-        <button type="submit"><Link to="/" style={{}}>Register</Link>  </button>
+        <button type="submit"><Link to="/" >Register</Link>  </button>
         
 
       </form>
