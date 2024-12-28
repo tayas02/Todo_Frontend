@@ -1,6 +1,7 @@
 import React,{useState } from 'react'
 import axios from 'axios';
 import './RegisterForm.css'
+import { Link } from 'react-router-dom';
 const url="https://0aec-122-165-248-127.ngrok-free.app/api/login/";
 
 const RegisterForm = () => {
@@ -42,7 +43,7 @@ const RegisterForm = () => {
         </div>
         <input onChange={(e)=>handleChange(e)} type="email" id="email" placeholder='Email' value={data.email} />
         <input onChange={(e)=>handleChange(e)} type="password" id="password" placeholder='Enter your password' value={data.password} />
-        <button type="submit">Register</button>
+        <button type="submit"><Link to="/" style={{}}>Register</Link>  </button>
         
 
       </form>
